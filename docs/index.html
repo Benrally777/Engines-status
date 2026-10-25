@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1 id="greeting">Welcome back</h1>
+    <p class="sub" id="today"></p>
+  </div>
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search your sites" aria-label="Search your sites">
+    <button id="theme" class="btn" aria-label="Switch theme">Theme</button>
+    <span id="status" class="status" role="status" aria-live="polite"></span>
+  </div>
+</header>
+<main>
+  <section id="pinned-wrap" hidden>
+    <h2>Pinned</h2>
+    <div class="grid" id="pinned"></div>
+  </section>
+  <section>
+    <h2>Social media</h2>
+    <div class="grid" id="social"></div>
+  </section>
+  <section>
+    <h2>Learning</h2>
+    <div class="grid" id="learning"></div>
+  </section>
+  <section>
+    <h2>Add a site</h2>
+    <form id="add" class="add">
+      <input name="name" placeholder="Name" required>
+      <input name="url" type="url" placeholder="https://example.com" required>
+      <select name="group"><option value="social">Social media</option><option value="learning">Learning</option></select>
+      <button class="btn primary">Add site</button>
+    </form>
+  </section>
+  <section>
+    <h2>Backup</h2>
+    <div class="add">
+      <button id="export" class="btn" type="button">Export links</button>
+      <button id="connect" class="btn" type="button" hidden>Connect GitHub</button>
+      <label class="btn">Import links<input id="import" type="file" accept="application/json" hidden></label>
+    </div>
+  </section>
+  <p id="empty" hidden>No sites match your search.</p>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

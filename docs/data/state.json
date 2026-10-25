@@ -1,0 +1,130 @@
+{
+  "sites": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com",
+      "group": "social",
+      "color": "#1877f2",
+      "pinned": false
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "group": "social",
+      "color": "#c13584",
+      "pinned": false
+    },
+    {
+      "name": "X",
+      "url": "https://x.com",
+      "group": "social",
+      "color": "#111827",
+      "pinned": false
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com",
+      "group": "social",
+      "color": "#0a66c2",
+      "pinned": false
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "group": "social",
+      "color": "#e02424",
+      "pinned": false
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com",
+      "group": "social",
+      "color": "#0f766e",
+      "pinned": false
+    },
+    {
+      "name": "Telegram",
+      "url": "https://web.telegram.org",
+      "group": "social",
+      "color": "#229ed9",
+      "pinned": false
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://web.whatsapp.com",
+      "group": "social",
+      "color": "#198754",
+      "pinned": false
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "group": "social",
+      "color": "#e8590c",
+      "pinned": false
+    },
+    {
+      "name": "Coursera",
+      "url": "https://www.coursera.org",
+      "group": "learning",
+      "color": "#0056d2",
+      "pinned": false
+    },
+    {
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org",
+      "group": "learning",
+      "color": "#2f855a",
+      "pinned": false
+    },
+    {
+      "name": "edX",
+      "url": "https://www.edx.org",
+      "group": "learning",
+      "color": "#02262b",
+      "pinned": false
+    },
+    {
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "group": "learning",
+      "color": "#a435f0",
+      "pinned": false
+    },
+    {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "group": "learning",
+      "color": "#2b3a67",
+      "pinned": false
+    },
+    {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "group": "learning",
+      "color": "#58a700",
+      "pinned": false
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org",
+      "group": "learning",
+      "color": "#4b5563",
+      "pinned": false
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "group": "learning",
+      "color": "#24292f",
+      "pinned": false
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "group": "learning",
+      "color": "#f48024",
+      "pinned": false
+    }
+  ]
+}
